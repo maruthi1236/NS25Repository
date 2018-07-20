@@ -220,6 +220,10 @@
         <name>RecordType</name>
     </types>
     <types>
+        <members>Lead.TestSHRule</members>
+        <name>SharingOwnerRule</name>
+    </types>
+    <types>
         <members>FullObject1__c</members>
         <members>FullObject2__c</members>
         <members>Layout__c</members>
