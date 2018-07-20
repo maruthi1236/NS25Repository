@@ -219,6 +219,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>autoRabitObject__c.uniqueNo__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>wellsforgoChildObj__c.AutorabitExtId__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -239,6 +244,14 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>MaruthiPermission</label>
+    <recordTypeVisibilities>
+        <recordType>Task.task_diff_recordtype</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <tabSettings>
+        <tab>autoRabitObject__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
     <tabSettings>
         <tab>wellsforgoChildObj__c</tab>
         <visibility>None</visibility>
