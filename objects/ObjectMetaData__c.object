@@ -52,43 +52,31 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>aR_ID__c</fullName>
+        <fullName>ObjectMetaData_id__c</fullName>
         <externalId>false</externalId>
-        <label>aR_ID</label>
-        <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>aR_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>aR_Name</label>
-        <length>11</length>
+        <label>ObjectMetaData_id</label>
+        <length>10</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>uniqueNo__c</fullName>
-        <externalId>true</externalId>
-        <label>uniqueNo</label>
-        <length>100</length>
+        <fullName>ObjectMetaData_name__c</fullName>
+        <externalId>false</externalId>
+        <label>ObjectMetaData_name</label>
+        <length>10</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>autoRabitObject</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <label>ObjectMetaData</label>
     <nameField>
-        <label>autoRabitObject Name</label>
+        <label>ObjectMetaData Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>autoRabitObjects</pluralLabel>
+    <pluralLabel>ObjectMetaData</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

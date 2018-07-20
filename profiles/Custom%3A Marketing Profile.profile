@@ -5,6 +5,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>A12</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>A3</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TestMerge</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -190,6 +202,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>ObjectMetaData__c.ObjectMetaData_id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectMetaData__c.ObjectMetaData_name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.DeliveryInstallationStatus__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -219,8 +241,43 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>autoObject__c.auto_id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>autoObject__c.auto_name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>autoObject__c.auto_number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>autoRabitObject__c.aR_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>autoRabitObject__c.aR_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>autoRabitObject__c.uniqueNo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>rabitObject__c.rabit_id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>rabitObject__c.rabit_name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -256,6 +313,9 @@
         <layout>Lease__c-Lease Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjectMetaData__c-ObjectMetaData Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>RecordTypeObj__c-RecordTypeObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -270,7 +330,13 @@
         <recordType>Task.task_diff_recordtype</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>autoObject__c-autoObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>autoRabitObject__c-autoRabitObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>rabitObject__c-rabitObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>wellsforgoChildObj__c-wellsforgoChildObj Layout</layout>

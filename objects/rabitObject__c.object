@@ -43,52 +43,41 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>this is rabitObject</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>aR_ID__c</fullName>
+        <fullName>rabit_id__c</fullName>
         <externalId>false</externalId>
-        <label>aR_ID</label>
-        <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>aR_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>aR_Name</label>
-        <length>11</length>
+        <label>rabit_id</label>
+        <length>10</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>uniqueNo__c</fullName>
-        <externalId>true</externalId>
-        <label>uniqueNo</label>
-        <length>100</length>
+        <fullName>rabit_name__c</fullName>
+        <externalId>false</externalId>
+        <label>rabit_name</label>
+        <length>20</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>autoRabitObject</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <label>rabitObject</label>
     <nameField>
-        <label>autoRabitObject Name</label>
+        <label>rabitObject Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>autoRabitObjects</pluralLabel>
+    <pluralLabel>rabitObjects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
