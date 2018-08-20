@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+    <version>40.0</version>
     <types>
         <members>A0</members>
         <members>A12</members>
@@ -9,6 +9,10 @@
         <members>TestMerge</members>
         <members>TestMerge1</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ObjectCL7__c.CoLayObject7</members>
+        <name>CompactLayout</name>
     </types>
     <types>
         <members>Account.AccountSource</members>
@@ -125,6 +129,7 @@
         <members>FullObject2__c</members>
         <members>Layout__c</members>
         <members>Lease__c</members>
+        <members>ObjectCL7__c</members>
         <members>ObjectMetaData__c</members>
         <members>ObjectNoChangess__c</members>
         <members>RecordTypeObj__c</members>
