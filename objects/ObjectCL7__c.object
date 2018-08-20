@@ -48,6 +48,7 @@
         <label>CoLayObject7</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>this is Object7 modified</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
